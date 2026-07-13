@@ -20,7 +20,7 @@ export function payment_webhook(scenario) {
         command: 'Payment',
         bankCode: '6',
         bankRef: 'LT996',
-        tranxId: 'KTBLT277806300997',
+        tranxId: '' + ref2,
         dateTime: '20260709162243',
         effDate: '20260709',
         amount: '100.00',
